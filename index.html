@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio · Homi</title>
+  <link rel="stylesheet" href="static/estilo.css">
+</head>
+<body>
+  <header class="cabecera">
+    <div class="contenedor fila-cabecera">
+      <a href="index.html" class="logo">Homi</a>
+      <nav class="menu">
+        <a href="paginas/explorar.html">Encontrar</a><a href="paginas/reservas.html">Mis reservaciones</a><a href="paginas/panel.html">Mi panel</a>
+        <a class="btn-menu" href="paginas/acceso.html">Usuario</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <section class="hero">
+  <p class="etiqueta-hero">Tu casa por el tiempo que tú quieras</p>
+  <h1>Tu próxima aventura<br>está por comenzar</h1>
+  <p class="gris">Encuentra alojamientos con todo lo que necesitas, al alcance de tus manos con solo un clic.</p>
+</section>
+
+<form class="buscador" action="paginas/explorar.html">
+  <div class="pastilla">
+    <div class="campo-pill">
+      <label for="destino">Destino</label>
+      <input id="destino" name="destino" placeholder="¿A dónde vas?">
+    </div>
+    <div class="campo-pill">
+      <label for="entrada">Entrada</label>
+      <input id="entrada" type="date" name="entrada">
+    </div>
+    <div class="campo-pill">
+      <label for="salida">Salida</label>
+      <input id="salida" type="date" name="salida">
+    </div>
+    <div class="campo-pill">
+      <label for="huespedes">Huéspedes</label>
+      <input id="huespedes" type="number" name="huespedes" min="1" placeholder="1">
+    </div>
+    <button class="btn-buscar" type="submit">Buscar</button>
+  </div>
+  
+</form>
+<section class="beneficios"><div class="beneficio"><h3>Solo casas libres en tus fechas</h3><p class="gris">Al buscar por fechas, solo ves los alojamientos disponibles para esos días.</p></div><div class="beneficio"><h3>Toda la información en un lugar</h3><p class="gris">Precio, servicios, condiciones y reseñas, sin buscar en otras páginas.</p></div><div class="beneficio"><h3>Renta por el tiempo que quieras</h3><p class="gris">Desde una noche hasta temporadas largas, según lo que defina cada propietario.</p></div></section>
+<div class="cta-centro"><a class="boton" href="paginas/explorar.html">Explorar alojamientos</a></div>
+
+<div class="seccion-cabecera">
+  <h2>Alojamientos destacados</h2>
+  <a class="subrayado" href="paginas/explorar.html">Ver todos →</a>
+</div>
+<section class="cuadricula"><a class="tarjeta" href="paginas/casa-1.html">
+  <div class="foto"><svg class="ilustracion-fondo" viewBox="0 0 160 120" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ilustración de una casa">
+  <rect width="160" height="120" rx="12" fill="#14283a"/>
+  <polygon points="80,20 130,58 30,58" fill="#6aa9ff"/>
+  <rect x="42" y="58" width="76" height="50" fill="#f2f2f2"/>
+  <rect x="70" y="76" width="20" height="32" fill="#14283a"/>
+  <rect x="50" y="68" width="14" height="12" fill="#14283a"/>
+  <rect x="96" y="68" width="14" height="12" fill="#14283a"/>
+</svg><img class="foto-real" src="static/fotos/casa-1.jpg" alt="Foto de Casa Jacaranda" onerror="this.remove()"><span class="etiqueta-foto">★ 4.8</span></div>
+  <div class="tarjeta-info">
+    <p class="ciudad">Tuxtla Gutiérrez</p>
+    <h3>Casa Jacaranda</h3>
+    <p class="precio"><strong>$950</strong> <span>por noche</span></p>
+  </div>
+</a><a class="tarjeta" href="paginas/casa-2.html">
+  <div class="foto"><svg class="ilustracion-fondo" viewBox="0 0 160 120" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ilustración de una casa">
+  <rect width="160" height="120" rx="12" fill="#2c1d10"/>
+  <polygon points="80,20 130,58 30,58" fill="#e0a040"/>
+  <rect x="42" y="58" width="76" height="50" fill="#f2f2f2"/>
+  <rect x="70" y="76" width="20" height="32" fill="#2c1d10"/>
+  <rect x="50" y="68" width="14" height="12" fill="#2c1d10"/>
+  <rect x="96" y="68" width="14" height="12" fill="#2c1d10"/>
+</svg><img class="foto-real" src="static/fotos/casa-2.jpg" alt="Foto de Departamento Cerro Verde" onerror="this.remove()"><span class="etiqueta-foto">★ 4.9</span></div>
+  <div class="tarjeta-info">
+    <p class="ciudad">San Cristóbal de las Casas</p>
+    <h3>Departamento Cerro Verde</h3>
+    <p class="precio"><strong>$1,200</strong> <span>por noche</span></p>
+  </div>
+</a><a class="tarjeta" href="paginas/casa-3.html">
+  <div class="foto"><svg class="ilustracion-fondo" viewBox="0 0 160 120" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ilustración de una casa">
+  <rect width="160" height="120" rx="12" fill="#3b1452"/>
+  <polygon points="80,20 130,58 30,58" fill="#c30df5"/>
+  <rect x="42" y="58" width="76" height="50" fill="#f2f2f2"/>
+  <rect x="70" y="76" width="20" height="32" fill="#3b1452"/>
+  <rect x="50" y="68" width="14" height="12" fill="#3b1452"/>
+  <rect x="96" y="68" width="14" height="12" fill="#3b1452"/>
+</svg><img class="foto-real" src="static/fotos/casa-3.jpg" alt="Foto de Cabaña El Mirador" onerror="this.remove()"><span class="etiqueta-foto">★ 4.7</span></div>
+  <div class="tarjeta-info">
+    <p class="ciudad">Chiapa de Corzo</p>
+    <h3>Cabaña El Mirador</h3>
+    <p class="precio"><strong>$1,500</strong> <span>por noche</span></p>
+  </div>
+</a></section>
+
+<section class="banner">
+  <div>
+    <h2>¿Tienes una casa para rentar?</h2>
+    <p class="gris">Publica en Homi y recibe dinerito.</p>
+  </div>
+  <a class="boton" href="paginas/publicar.html">Publicar mi casa</a>
+</section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie-grid">
+      <div>
+        <p class="logo">Homi</p>
+        <p class="gris">Tu casa por el tiempo que tú quieras.</p>
+      </div>
+      <div>
+        <p class="titulo-pie">Encontrar</p>
+        <a href="paginas/explorar.html">Alojamientos</a>
+        <a href="paginas/reservas.html">Mis reservaciones</a>
+      </div>
+      <div>
+        <p class="titulo-pie">Anfitriones</p>
+        <a href="paginas/panel.html">Mi panel</a>
+      </div>
+      <div>
+        <p class="titulo-pie">Cuenta</p>
+        <a href="paginas/acceso.html">Usuario</a>
+        <a href="paginas/registro.html">Crear cuenta</a>
+      </div>
+    </div>
+    <div class="contenedor pie-legal">Homi - Proyecto del equipo más perrón, equipo 3</div>
+  </footer>
+</body>
+</html>

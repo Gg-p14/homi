@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cabaña El Mirador · Homi</title>
+  <link rel="stylesheet" href="../static/estilo.css">
+</head>
+<body>
+  <header class="cabecera">
+    <div class="contenedor fila-cabecera">
+      <a href="../index.html" class="logo">Homi</a>
+      <nav class="menu">
+        <a href="explorar.html">Encontrar</a><a href="reservas.html">Mis reservaciones</a><a href="panel.html">Mi panel</a>
+        <a class="btn-menu" href="acceso.html">Usuario</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <p class="migas">
+  <a href="../index.html">Inicio</a> / <a href="explorar.html">Encontrar</a> / Cabaña El Mirador
+</p>
+<h1>Cabaña El Mirador</h1>
+<p class="gris">★ 4.7 · Chiapa de Corzo</p>
+
+<div class="galeria"><div class="foto foto-principal"><svg class="ilustracion-fondo" viewBox="0 0 160 120" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ilustración de una casa">
+  <rect width="160" height="120" rx="12" fill="#3b1452"/>
+  <polygon points="80,20 130,58 30,58" fill="#c30df5"/>
+  <rect x="42" y="58" width="76" height="50" fill="#f2f2f2"/>
+  <rect x="70" y="76" width="20" height="32" fill="#3b1452"/>
+  <rect x="50" y="68" width="14" height="12" fill="#3b1452"/>
+  <rect x="96" y="68" width="14" height="12" fill="#3b1452"/>
+</svg><img class="foto-real" src="../static/fotos/casa-3.jpg" alt="Foto de Cabaña El Mirador" onerror="this.remove()"></div><div class="foto foto-chica"></div><div class="foto foto-chica"></div><div class="foto foto-chica"></div><div class="foto foto-chica"></div></div>
+
+<div class="detalle">
+  <div>
+    <h2>Sobre este alojamiento</h2>
+    <p>Cabaña rodeada de naturaleza, ideal para grupos y escapadas.</p>
+    <p class="gris">6 huéspedes · 3 recámara(s) · 2 baño(s)</p>
+
+    <h2>Servicios</h2>
+    <ul class="lista"><li>Alberca</li><li>Estacionamiento</li><li>Aire acondicionado</li></ul>
+
+    <h2>Condiciones</h2>
+    <p>Entrada a partir de las 16:00. Salida antes de las 12:00.</p>
+  </div>
+
+  <aside class="reserva">
+    <p class="precio-grande"><strong>$1,500</strong> por noche</p>
+    <form action="reservas.html">
+      <div class="campo">
+        <label for="entrada">Entrada</label>
+        <input id="entrada" type="date" name="entrada">
+      </div>
+      <div class="campo">
+        <label for="salida">Salida</label>
+        <input id="salida" type="date" name="salida">
+      </div>
+      <div class="campo">
+        <label for="huespedes">Huéspedes (máximo 6)</label>
+        <input id="huespedes" type="number" name="huespedes" min="1" placeholder="1">
+      </div>
+      <button class="boton boton-bloque" type="submit">Solicitar reservación</button>
+    </form>
+    <p class="pequeno gris">Es una solicitud: el propietario la acepta o la rechaza.</p>
+    <p class="pequeno"><a class="subrayado" href="acceso.html">Inicia sesión</a> para reservar.</p>
+  </aside>
+</div>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie-grid">
+      <div>
+        <p class="logo">Homi</p>
+        <p class="gris">Tu casa por el tiempo que tú quieras.</p>
+      </div>
+      <div>
+        <p class="titulo-pie">Encontrar</p>
+        <a href="explorar.html">Alojamientos</a>
+        <a href="reservas.html">Mis reservaciones</a>
+      </div>
+      <div>
+        <p class="titulo-pie">Anfitriones</p>
+        <a href="panel.html">Mi panel</a>
+      </div>
+      <div>
+        <p class="titulo-pie">Cuenta</p>
+        <a href="acceso.html">Usuario</a>
+        <a href="registro.html">Crear cuenta</a>
+      </div>
+    </div>
+    <div class="contenedor pie-legal">Homi · Proyecto del equipo más perrón, equipo 3</div>
+  </footer>
+</body>
+</html>

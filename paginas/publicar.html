@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publicar alojamiento · Homi</title>
+  <link rel="stylesheet" href="../static/estilo.css">
+</head>
+<body>
+  <header class="cabecera">
+    <div class="contenedor fila-cabecera">
+      <a href="../index.html" class="logo">Homi</a>
+      <nav class="menu">
+        <a href="explorar.html">Encontrar</a><a href="reservas.html">Mis reservaciones</a><a href="panel.html">Mi panel</a>
+        <a class="btn-menu" href="acceso.html">Usuario</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <div class="encabezado-pagina">
+  <div>
+    <h1>Publica tu alojamiento</h1>
+    <p class="gris">Completa los datos. Las fotos se agregarán después.</p>
+  </div>
+</div>
+
+<form action="panel.html">
+  <section class="seccion">
+    <h2>Información básica</h2>
+    <div class="campo"><label for="titulo">Nombre del alojamiento</label>
+      <input id="titulo" placeholder="Ej. Casa con jardín"></div>
+    <div class="campo"><label for="descripcion">Descripción</label>
+      <textarea id="descripcion"></textarea></div>
+  </section>
+
+  <section class="seccion">
+    <h2>Ubicación y capacidad</h2>
+    <div class="dos">
+      <div class="campo"><label for="ciudad">Ciudad</label><input id="ciudad"></div>
+      <div class="campo"><label for="direccion">Dirección o colonia</label><input id="direccion"></div>
+    </div>
+    <div class="dos">
+      <div class="campo"><label for="precio">Precio por noche (MXN)</label><input id="precio" type="number"></div>
+      <div class="campo"><label for="huespedes">Huéspedes máximo</label><input id="huespedes" type="number"></div>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <h2>Servicios</h2>
+    <div class="chips"><label class="chip"><input type="checkbox" name="servicio"> Wi-Fi</label><label class="chip"><input type="checkbox" name="servicio"> Estacionamiento</label><label class="chip"><input type="checkbox" name="servicio"> Alberca</label><label class="chip"><input type="checkbox" name="servicio"> Aire acondicionado</label><label class="chip"><input type="checkbox" name="servicio"> Cocina equipada</label><label class="chip"><input type="checkbox" name="servicio"> Mascotas permitidas</label><label class="chip"><input type="checkbox" name="servicio"> Lavadora</label><label class="chip"><input type="checkbox" name="servicio"> Jardín</label></div>
+  </section>
+
+  <section class="seccion">
+    <h2>Fotos</h2>
+    <div class="foto-pequena"></div>
+  </section>
+
+  <div class="acciones">
+    <button class="boton" type="submit">Publicar alojamiento</button>
+    <a class="boton-2" href="panel.html">Cancelar</a>
+  </div>
+</form>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie-grid">
+      <div>
+        <p class="logo">Homi</p>
+        <p class="gris">Tu casa por el tiempo que tú quieras.</p>
+      </div>
+      <div>
+        <p class="titulo-pie">Encontrar</p>
+        <a href="explorar.html">Alojamientos</a>
+        <a href="reservas.html">Mis reservaciones</a>
+      </div>
+      <div>
+        <p class="titulo-pie">Anfitriones</p>
+        <a href="panel.html">Mi panel</a>
+      </div>
+      <div>
+        <p class="titulo-pie">Cuenta</p>
+        <a href="acceso.html">Usuario</a>
+        <a href="registro.html">Crear cuenta</a>
+      </div>
+    </div>
+    <div class="contenedor pie-legal">Homi · Proyecto del equipo más perrón, equipo 3</div>
+  </footer>
+</body>
+</html>

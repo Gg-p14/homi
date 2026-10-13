@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crear cuenta · Homi</title>
+  <link rel="stylesheet" href="../static/estilo.css">
+</head>
+<body>
+  <header class="cabecera">
+    <div class="contenedor fila-cabecera">
+      <a href="../index.html" class="logo">Homi</a>
+      <nav class="menu">
+        <a href="explorar.html">Encontrar</a><a href="reservas.html">Mis reservaciones</a><a href="panel.html">Mi panel</a>
+        <a class="btn-menu" href="acceso.html">Usuario</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <div class="formulario-centrado"><section class="seccion">
+  <h1>Crea tu cuenta</h1>
+  <p class="gris">Reserva casas o rentar las tuyas.</p>
+  <form action="acceso.html">
+    <div class="campo"><label for="nombre">Nombre</label><input id="nombre"></div>
+    <div class="campo"><label for="correo">Correo</label><input id="correo" type="email"></div>
+    <div class="campo"><label for="clave">Contraseña</label><input id="clave" type="password"></div>
+    <div class="campo"><label for="rol">Quiero</label>
+      <select id="rol"><option>Reservar casas</option><option>Rentar mis casas</option></select></div>
+    <button class="boton boton-bloque" type="submit">Crear cuenta</button>
+  </form>
+  <p class="pequeno gris">¿Ya tienes cuenta? <a class="subrayado" href="acceso.html">Inicia sesión</a></p>
+</section></div>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie-grid">
+      <div>
+        <p class="logo">Homi</p>
+        <p class="gris">Tu casa por el tiempo que tú quieras.</p>
+      </div>
+      <div>
+        <p class="titulo-pie">Encontrar</p>
+        <a href="explorar.html">Alojamientos</a>
+        <a href="reservas.html">Mis reservaciones</a>
+      </div>
+      <div>
+        <p class="titulo-pie">Anfitriones</p>
+        <a href="panel.html">Mi panel</a>
+      </div>
+      <div>
+        <p class="titulo-pie">Cuenta</p>
+        <a href="acceso.html">Usuario</a>
+        <a href="registro.html">Crear cuenta</a>
+      </div>
+    </div>
+    <div class="contenedor pie-legal">Homi · Proyecto del equipo más perrón, equipo 3</div>
+  </footer>
+</body>
+</html>
